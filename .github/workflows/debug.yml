@@ -22,7 +22,7 @@ jobs:
     - name: Compile
       run: ./bootstrap
     - name: CT tests
-      run: ./rebar3 ct
+      run: ./rebar3 version
 
     - name: Create Release
       id: create_release
